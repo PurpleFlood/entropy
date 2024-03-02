@@ -2,8 +2,8 @@ from PIL import Image
 import random
 
 # Dimensions de l'image
-largeur = 2048
-nom_fichier="./global.ini.tar.gz"
+largeur = 150
+nom_fichier="./out/test.txt"
 
 with open(nom_fichier, 'rb') as fichier:
     # Lecture du contenu ou d'autres opérations sur le fichier si nécessaire
@@ -29,7 +29,7 @@ for i in contenu:
 
 
 # Enregistrement de l'image
-image.save("image_random.png")
+image.save("./out/image_random00.png")
 
 # Affichage de l'image (optionnel)
 
