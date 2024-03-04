@@ -1,5 +1,5 @@
 # Remplacez 'chemin/vers/le/fichier' par le chemin réel de votre fichier binaire
-chemin_fichier = './out/image_random00_compressed.png'
+chemin_fichier = './image_random.png'
 rs= []
 
 # Ouverture du fichier en mode binaire
