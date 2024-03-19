@@ -2,8 +2,8 @@ from PIL import Image
 import random
 
 # Dimensions de l'image
-largeur = 1600
-nom_fichier="./test-example.jpg"
+largeur = 1920
+nom_fichier="./global.ini"
 
 with open(nom_fichier, 'rb') as fichier:
     # Lecture du contenu ou d'autres opérations sur le fichier si nécessaire
@@ -30,7 +30,7 @@ for i in range(0,len(contenu),3):
 
 
 # Enregistrement de l'image
-image.save("image_random.jpeg")
+image.save("image_global-ini.png")
 
 # Affichage de l'image (optionnel)
 

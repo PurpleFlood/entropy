@@ -1,5 +1,5 @@
 # Remplacez 'chemin/vers/le/fichier' par le chemin réel de votre fichier binaire
-chemin_fichier = './image_random.png'
+chemin_fichier = './image_global-ini-tar.png'
 rs= []
 
 # Ouverture du fichier en mode binaire
@@ -15,5 +15,3 @@ with open(chemin_fichier, 'rb') as fichier:
         print(f"Valeur de l'octet : {ord(octet)}")
         # Lecture de l'octet suivant
         octet = fichier.read(1)
-
-
