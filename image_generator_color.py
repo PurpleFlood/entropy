@@ -26,7 +26,7 @@ for i in range(0,len(contenu),3):
     #print(x,y,couleur)
     image.putpixel((x, y), couleur)
     #print(couleur)
-    
+
 
 
 # Enregistrement de l'image
